@@ -17,6 +17,9 @@ do
     ln -f -s -t $HOME dotfiles/$DOTFILE
 done
 
+# fix permissions; not recorded in git
+chmod 700 .gnupg .ssh
+
 # setup gpg
 gpg --import-ownertrust default-ownertrust.txt
 gpg --recv-key 7FAB114267E4FA04
