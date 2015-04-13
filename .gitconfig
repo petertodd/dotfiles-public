@@ -1,0 +1,31 @@
+[user]
+    name = Peter Todd
+    email = pete@petertodd.org
+    signingkey = 7FAB114267E4FA04
+[alias]
+    ci = commit -a
+    co = checkout
+    st = status
+    praise = blame
+
+[apply]
+    whitespace = strip
+
+[diff]
+    color = auto
+    rename = copy
+
+[pager]
+    color = true
+
+[status]
+    color = auto
+
+[core]
+    excludesfile = ~/dotfiles/global-gitignore
+
+[push]
+    default = simple
+
+[receive]
+    fsckObjects = true

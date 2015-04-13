@@ -6,6 +6,7 @@ for DOTFILE in \
     .bash_logout \
     .bash_profile \
     .bashrc \
+    .gitconfig \
     .gnupg \
     .inputrc \
     .ssh \
