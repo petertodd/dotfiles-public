@@ -21,5 +21,5 @@ done
 chmod 700 .gnupg .ssh
 
 # setup gpg
-gpg --import-ownertrust default-ownertrust.txt
 gpg --import < 7FAB114267E4FA04.asc
+gpg --import-ownertrust default-ownertrust.txt
