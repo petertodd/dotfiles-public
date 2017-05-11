@@ -20,7 +20,7 @@ alias ga2g='git annex copy -t glacier --not --in=glacier'
 alias btc=~/src/bitcoin/bitcoin/src/bitcoin-cli
 alias tbtc='~/src/bitcoin/bitcoin/src/bitcoin-cli -testnet'
 alias rbtc='~/src/bitcoin/bitcoin/src/bitcoin-cli -regtest'
-alias ltc=~/src/litecoin/litecoin/src/litecoind
+alias ltc=~/src/litecoin/litecoin/src/litecoin-cli
 alias tltc='~/src/litecoin/litecoin/src/litecoind -testnet'
 
 export EDITOR="vim"
